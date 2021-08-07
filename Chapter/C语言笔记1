@@ -1,0 +1,27 @@
+C语言笔记1
+
+CMakeLists.txt:
+  project(工程名)
+
+  set(CMAKE_C_STANDARD 11):设置cmake标准 c99 c90 c11
+
+  add_executable(工程名 要执行的c文件):文件名修改时此处必须修改
+
+  get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+    获取当前目录下的工程名称
+
+  string(REPLACE " " "_" ProjectId ${ProjectId})
+    将工程名中的 "_" 替换成 " "
+
+  file(GLOB files ${CMAKE_CURRENT_SOURCE_DIR}/*.c)
+  foreach(file ${files})
+      get_filename_component(name ${file} NAME)
+      add_executable(${name} ${file})
+  endforeach()
+    将当前文件夹下c文件放到files变量中,遍历files获取文件名并添加到执行
+
+1 Byte = 8 bit
+一个16进制的数对应4个位
+
+小端序：高位数存于高地址
+大端序：高位数存于低地址
