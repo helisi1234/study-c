@@ -122,32 +122,59 @@ Chapter6/fast:
 	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/build
 .PHONY : Chapter6/fast
 
-03.string.obj: 03.string.c.obj
+06.shuffle_array.obj: 06.shuffle_array.c.obj
 
-.PHONY : 03.string.obj
+.PHONY : 06.shuffle_array.obj
 
 # target to build an object file
-03.string.c.obj:
-	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/03.string.c.obj
-.PHONY : 03.string.c.obj
+06.shuffle_array.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj
+.PHONY : 06.shuffle_array.c.obj
 
-03.string.i: 03.string.c.i
+06.shuffle_array.i: 06.shuffle_array.c.i
 
-.PHONY : 03.string.i
+.PHONY : 06.shuffle_array.i
 
 # target to preprocess a source file
-03.string.c.i:
-	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/03.string.c.i
-.PHONY : 03.string.c.i
+06.shuffle_array.c.i:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/06.shuffle_array.c.i
+.PHONY : 06.shuffle_array.c.i
 
-03.string.s: 03.string.c.s
+06.shuffle_array.s: 06.shuffle_array.c.s
 
-.PHONY : 03.string.s
+.PHONY : 06.shuffle_array.s
 
 # target to generate assembly for a file
-03.string.c.s:
-	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/03.string.c.s
-.PHONY : 03.string.c.s
+06.shuffle_array.c.s:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/06.shuffle_array.c.s
+.PHONY : 06.shuffle_array.c.s
+
+07.quick_sort.obj: 07.quick_sort.c.obj
+
+.PHONY : 07.quick_sort.obj
+
+# target to build an object file
+07.quick_sort.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/07.quick_sort.c.obj
+.PHONY : 07.quick_sort.c.obj
+
+07.quick_sort.i: 07.quick_sort.c.i
+
+.PHONY : 07.quick_sort.i
+
+# target to preprocess a source file
+07.quick_sort.c.i:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/07.quick_sort.c.i
+.PHONY : 07.quick_sort.c.i
+
+07.quick_sort.s: 07.quick_sort.c.s
+
+.PHONY : 07.quick_sort.s
+
+# target to generate assembly for a file
+07.quick_sort.c.s:
+	$(MAKE) -f CMakeFiles\Chapter6.dir\build.make CMakeFiles/Chapter6.dir/07.quick_sort.c.s
+.PHONY : 07.quick_sort.c.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... Chapter6
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 03.string.obj
-	@echo ... 03.string.i
-	@echo ... 03.string.s
+	@echo ... 06.shuffle_array.obj
+	@echo ... 06.shuffle_array.i
+	@echo ... 06.shuffle_array.s
+	@echo ... 07.quick_sort.obj
+	@echo ... 07.quick_sort.i
+	@echo ... 07.quick_sort.s
 .PHONY : help
 
 

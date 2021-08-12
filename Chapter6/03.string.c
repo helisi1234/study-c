@@ -20,6 +20,6 @@ int main() {
   char string_zh[] = "你好，中国";
 //  宽字符数组
 //wchar_t[6]
-  wchar_t ws[] = L"你好，中国";
+  wchar_t ws [] = L"你好，中国";
   return 0;
 }

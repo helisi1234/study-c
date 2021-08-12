@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/project/C/study-c/Chapter6/03.string.c" "D:/project/C/study-c/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/03.string.c.obj"
+  "D:/project/C/study-c/Chapter6/06.shuffle_array.c" "D:/project/C/study-c/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj"
+  "D:/project/C/study-c/Chapter6/07.quick_sort.c" "D:/project/C/study-c/Chapter6/cmake-build-debug/CMakeFiles/Chapter6.dir/07.quick_sort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

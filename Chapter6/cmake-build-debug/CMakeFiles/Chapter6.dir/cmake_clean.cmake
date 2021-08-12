@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter6.dir/03.string.c.obj"
+  "CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj"
+  "CMakeFiles/Chapter6.dir/07.quick_sort.c.obj"
   "Chapter6.pdb"
   "Chapter6.exe"
   "Chapter6.exe.manifest"

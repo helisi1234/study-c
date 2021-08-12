@@ -56,32 +56,47 @@ include CMakeFiles/Chapter6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chapter6.dir/flags.make
 
-CMakeFiles/Chapter6.dir/03.string.c.obj: CMakeFiles/Chapter6.dir/flags.make
-CMakeFiles/Chapter6.dir/03.string.c.obj: ../03.string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\C\study-c\Chapter6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Chapter6.dir/03.string.c.obj"
-	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chapter6.dir\03.string.c.obj   -c D:\project\C\study-c\Chapter6\03.string.c
+CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj: CMakeFiles/Chapter6.dir/flags.make
+CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj: ../06.shuffle_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\C\study-c\Chapter6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chapter6.dir\06.shuffle_array.c.obj   -c D:\project\C\study-c\Chapter6\06.shuffle_array.c
 
-CMakeFiles/Chapter6.dir/03.string.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter6.dir/03.string.c.i"
-	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\C\study-c\Chapter6\03.string.c > CMakeFiles\Chapter6.dir\03.string.c.i
+CMakeFiles/Chapter6.dir/06.shuffle_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter6.dir/06.shuffle_array.c.i"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\C\study-c\Chapter6\06.shuffle_array.c > CMakeFiles\Chapter6.dir\06.shuffle_array.c.i
 
-CMakeFiles/Chapter6.dir/03.string.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter6.dir/03.string.c.s"
-	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\C\study-c\Chapter6\03.string.c -o CMakeFiles\Chapter6.dir\03.string.c.s
+CMakeFiles/Chapter6.dir/06.shuffle_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter6.dir/06.shuffle_array.c.s"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\C\study-c\Chapter6\06.shuffle_array.c -o CMakeFiles\Chapter6.dir\06.shuffle_array.c.s
+
+CMakeFiles/Chapter6.dir/07.quick_sort.c.obj: CMakeFiles/Chapter6.dir/flags.make
+CMakeFiles/Chapter6.dir/07.quick_sort.c.obj: ../07.quick_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\C\study-c\Chapter6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Chapter6.dir/07.quick_sort.c.obj"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Chapter6.dir\07.quick_sort.c.obj   -c D:\project\C\study-c\Chapter6\07.quick_sort.c
+
+CMakeFiles/Chapter6.dir/07.quick_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter6.dir/07.quick_sort.c.i"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\C\study-c\Chapter6\07.quick_sort.c > CMakeFiles\Chapter6.dir\07.quick_sort.c.i
+
+CMakeFiles/Chapter6.dir/07.quick_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter6.dir/07.quick_sort.c.s"
+	D:\soft\ide\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\C\study-c\Chapter6\07.quick_sort.c -o CMakeFiles\Chapter6.dir\07.quick_sort.c.s
 
 # Object files for target Chapter6
 Chapter6_OBJECTS = \
-"CMakeFiles/Chapter6.dir/03.string.c.obj"
+"CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj" \
+"CMakeFiles/Chapter6.dir/07.quick_sort.c.obj"
 
 # External object files for target Chapter6
 Chapter6_EXTERNAL_OBJECTS =
 
-Chapter6.exe: CMakeFiles/Chapter6.dir/03.string.c.obj
+Chapter6.exe: CMakeFiles/Chapter6.dir/06.shuffle_array.c.obj
+Chapter6.exe: CMakeFiles/Chapter6.dir/07.quick_sort.c.obj
 Chapter6.exe: CMakeFiles/Chapter6.dir/build.make
 Chapter6.exe: CMakeFiles/Chapter6.dir/linklibs.rsp
 Chapter6.exe: CMakeFiles/Chapter6.dir/objects1.rsp
 Chapter6.exe: CMakeFiles/Chapter6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\C\study-c\Chapter6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Chapter6.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\C\study-c\Chapter6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Chapter6.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Chapter6.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/project/C/study-c/Chapter6/03.string.c
+D:/project/C/study-c/Chapter6/06.shuffle_array.c
 stdio.h
 -
-include/print_util.h
-D:/project/C/study-c/Chapter6/include/print_util.h
-
-D:/project/C/study-c/Chapter6/include/print_util.h
+stdlib.h
+-
+time.h
+-
 

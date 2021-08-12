@@ -74,7 +74,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/project/C/study-c/Chapter6/03.string.c">
+		<Unit filename="D:/project/C/study-c/Chapter6/06.shuffle_array.c">
+			<Option target="Chapter6"/>
+		</Unit>
+		<Unit filename="D:/project/C/study-c/Chapter6/07.quick_sort.c">
 			<Option target="Chapter6"/>
 		</Unit>
 		<Unit filename="D:/project/C/study-c/Chapter6/include/print_util.h">
