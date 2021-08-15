@@ -1,0 +1,14 @@
+预处理
+gcc -E helloworld.c -o helloworld.i
+
+编译
+gcc -S helloworld.i -o helloworld.s
+
+汇编
+gcc -c helloworld.s -o helloworld.o
+
+链接
+gcc helloworld.o -o helloworld
+详细连接过程
+gcc -v helloworld.o -o helloworld
+

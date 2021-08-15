@@ -1,0 +1,15 @@
+cd mathutils/
+gcc -c factorial.c fibonacci.c
+which ar
+ar rcs libmathutils.a factorial.o fibonacci.o
+
+使用
+#include "mathutils/include/fibonacci.h"
+#include "mathutils/include/factorial.h"
+int main(void) {
+  printf("Fibonacci(5):%d\n", Fibonacci(5));
+  printf("Factorial(5):%d\n", Factorial(5));
+}
+
+gcc编译
+gcc c_file_name.c mathutils/libmathutils.a -o c_file_name

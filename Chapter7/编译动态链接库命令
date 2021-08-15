@@ -1,0 +1,6 @@
+which ldd
+cd mathutils/
+gcc -shared -fPIC factorical.c fibonacci.c -o libmathutils.so
+gcc -shared -fPIC -wl,--out-impllic,libmathutils.a factorial.c fibonacci.c -o libmathutils.dll
+objdump -t libmathutils.dll
+gcc c_file_name.c -Lmathutils -lmathutils -o c_file_name
