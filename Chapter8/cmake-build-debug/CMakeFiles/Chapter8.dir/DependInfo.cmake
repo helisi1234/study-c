@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/project/C/study-c/Chapter8/02.readonly_pointer.c" "D:/project/C/study-c/Chapter8/cmake-build-debug/CMakeFiles/Chapter8.dir/02.readonly_pointer.c.obj"
+  "D:/project/C/study-c/Chapter8/04.pointer_operations.c" "D:/project/C/study-c/Chapter8/cmake-build-debug/CMakeFiles/Chapter8.dir/04.pointer_operations.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

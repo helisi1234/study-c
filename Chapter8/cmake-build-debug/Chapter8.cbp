@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/project/C/study-c/Chapter8/02.readonly_pointer.c">
+		<Unit filename="D:/project/C/study-c/Chapter8/04.pointer_operations.c">
 			<Option target="Chapter8"/>
 		</Unit>
 		<Unit filename="D:/project/C/study-c/Chapter8/CMakeLists.txt">

@@ -122,32 +122,32 @@ Chapter8/fast:
 	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/build
 .PHONY : Chapter8/fast
 
-02.readonly_pointer.obj: 02.readonly_pointer.c.obj
+04.pointer_operations.obj: 04.pointer_operations.c.obj
 
-.PHONY : 02.readonly_pointer.obj
+.PHONY : 04.pointer_operations.obj
 
 # target to build an object file
-02.readonly_pointer.c.obj:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/02.readonly_pointer.c.obj
-.PHONY : 02.readonly_pointer.c.obj
+04.pointer_operations.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.obj
+.PHONY : 04.pointer_operations.c.obj
 
-02.readonly_pointer.i: 02.readonly_pointer.c.i
+04.pointer_operations.i: 04.pointer_operations.c.i
 
-.PHONY : 02.readonly_pointer.i
+.PHONY : 04.pointer_operations.i
 
 # target to preprocess a source file
-02.readonly_pointer.c.i:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/02.readonly_pointer.c.i
-.PHONY : 02.readonly_pointer.c.i
+04.pointer_operations.c.i:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.i
+.PHONY : 04.pointer_operations.c.i
 
-02.readonly_pointer.s: 02.readonly_pointer.c.s
+04.pointer_operations.s: 04.pointer_operations.c.s
 
-.PHONY : 02.readonly_pointer.s
+.PHONY : 04.pointer_operations.s
 
 # target to generate assembly for a file
-02.readonly_pointer.c.s:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/02.readonly_pointer.c.s
-.PHONY : 02.readonly_pointer.c.s
+04.pointer_operations.c.s:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.s
+.PHONY : 04.pointer_operations.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Chapter8
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 02.readonly_pointer.obj
-	@echo ... 02.readonly_pointer.i
-	@echo ... 02.readonly_pointer.s
+	@echo ... 04.pointer_operations.obj
+	@echo ... 04.pointer_operations.i
+	@echo ... 04.pointer_operations.s
 .PHONY : help
 
 
