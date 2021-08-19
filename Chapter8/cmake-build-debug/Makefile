@@ -122,32 +122,32 @@ Chapter8/fast:
 	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/build
 .PHONY : Chapter8/fast
 
-04.pointer_operations.obj: 04.pointer_operations.c.obj
+07.dynamic_memory.obj: 07.dynamic_memory.c.obj
 
-.PHONY : 04.pointer_operations.obj
+.PHONY : 07.dynamic_memory.obj
 
 # target to build an object file
-04.pointer_operations.c.obj:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.obj
-.PHONY : 04.pointer_operations.c.obj
+07.dynamic_memory.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.obj
+.PHONY : 07.dynamic_memory.c.obj
 
-04.pointer_operations.i: 04.pointer_operations.c.i
+07.dynamic_memory.i: 07.dynamic_memory.c.i
 
-.PHONY : 04.pointer_operations.i
+.PHONY : 07.dynamic_memory.i
 
 # target to preprocess a source file
-04.pointer_operations.c.i:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.i
-.PHONY : 04.pointer_operations.c.i
+07.dynamic_memory.c.i:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.i
+.PHONY : 07.dynamic_memory.c.i
 
-04.pointer_operations.s: 04.pointer_operations.c.s
+07.dynamic_memory.s: 07.dynamic_memory.c.s
 
-.PHONY : 04.pointer_operations.s
+.PHONY : 07.dynamic_memory.s
 
 # target to generate assembly for a file
-04.pointer_operations.c.s:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/04.pointer_operations.c.s
-.PHONY : 04.pointer_operations.c.s
+07.dynamic_memory.c.s:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.s
+.PHONY : 07.dynamic_memory.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Chapter8
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 04.pointer_operations.obj
-	@echo ... 04.pointer_operations.i
-	@echo ... 04.pointer_operations.s
+	@echo ... 07.dynamic_memory.obj
+	@echo ... 07.dynamic_memory.i
+	@echo ... 07.dynamic_memory.s
 .PHONY : help
 
 
