@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/project/C/study-c/Chapter8/07.dynamic_memory.c">
+		<Unit filename="D:/project/C/study-c/Chapter8/08.function_pointer.c">
 			<Option target="Chapter8"/>
 		</Unit>
 		<Unit filename="D:/project/C/study-c/Chapter8/CMakeLists.txt">

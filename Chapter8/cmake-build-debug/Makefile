@@ -122,32 +122,32 @@ Chapter8/fast:
 	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/build
 .PHONY : Chapter8/fast
 
-07.dynamic_memory.obj: 07.dynamic_memory.c.obj
+08.function_pointer.obj: 08.function_pointer.c.obj
 
-.PHONY : 07.dynamic_memory.obj
+.PHONY : 08.function_pointer.obj
 
 # target to build an object file
-07.dynamic_memory.c.obj:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.obj
-.PHONY : 07.dynamic_memory.c.obj
+08.function_pointer.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/08.function_pointer.c.obj
+.PHONY : 08.function_pointer.c.obj
 
-07.dynamic_memory.i: 07.dynamic_memory.c.i
+08.function_pointer.i: 08.function_pointer.c.i
 
-.PHONY : 07.dynamic_memory.i
+.PHONY : 08.function_pointer.i
 
 # target to preprocess a source file
-07.dynamic_memory.c.i:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.i
-.PHONY : 07.dynamic_memory.c.i
+08.function_pointer.c.i:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/08.function_pointer.c.i
+.PHONY : 08.function_pointer.c.i
 
-07.dynamic_memory.s: 07.dynamic_memory.c.s
+08.function_pointer.s: 08.function_pointer.c.s
 
-.PHONY : 07.dynamic_memory.s
+.PHONY : 08.function_pointer.s
 
 # target to generate assembly for a file
-07.dynamic_memory.c.s:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.s
-.PHONY : 07.dynamic_memory.c.s
+08.function_pointer.c.s:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/08.function_pointer.c.s
+.PHONY : 08.function_pointer.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Chapter8
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 07.dynamic_memory.obj
-	@echo ... 07.dynamic_memory.i
-	@echo ... 07.dynamic_memory.s
+	@echo ... 08.function_pointer.obj
+	@echo ... 08.function_pointer.i
+	@echo ... 08.function_pointer.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter8.dir/07.dynamic_memory.c.obj"
+  "CMakeFiles/Chapter8.dir/08.function_pointer.c.obj"
   "Chapter8.pdb"
   "Chapter8.exe"
   "Chapter8.exe.manifest"
