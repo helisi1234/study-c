@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter8.dir/08.function_pointer.c.obj"
+  "CMakeFiles/Chapter8.dir/09.swap_values.c.obj"
   "Chapter8.pdb"
   "Chapter8.exe"
   "Chapter8.exe.manifest"

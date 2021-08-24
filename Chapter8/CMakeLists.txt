@@ -3,4 +3,4 @@ project(Chapter8 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Chapter8 08.function_pointer.c)
+add_executable(Chapter8 09.swap_values.c)
