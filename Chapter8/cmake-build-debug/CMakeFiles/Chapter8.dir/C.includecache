@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/project/C/study-c/Chapter8/09.swap_values.c
+D:/project/C/study-c/Chapter8/06.pointer_parameter_as_return.c
 stdio.h
--
-stdlib.h
--
-string.h
 -
 

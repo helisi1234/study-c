@@ -122,32 +122,32 @@ Chapter8/fast:
 	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/build
 .PHONY : Chapter8/fast
 
-09.swap_values.obj: 09.swap_values.c.obj
+07.dynamic_memory.obj: 07.dynamic_memory.c.obj
 
-.PHONY : 09.swap_values.obj
+.PHONY : 07.dynamic_memory.obj
 
 # target to build an object file
-09.swap_values.c.obj:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/09.swap_values.c.obj
-.PHONY : 09.swap_values.c.obj
+07.dynamic_memory.c.obj:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.obj
+.PHONY : 07.dynamic_memory.c.obj
 
-09.swap_values.i: 09.swap_values.c.i
+07.dynamic_memory.i: 07.dynamic_memory.c.i
 
-.PHONY : 09.swap_values.i
+.PHONY : 07.dynamic_memory.i
 
 # target to preprocess a source file
-09.swap_values.c.i:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/09.swap_values.c.i
-.PHONY : 09.swap_values.c.i
+07.dynamic_memory.c.i:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.i
+.PHONY : 07.dynamic_memory.c.i
 
-09.swap_values.s: 09.swap_values.c.s
+07.dynamic_memory.s: 07.dynamic_memory.c.s
 
-.PHONY : 09.swap_values.s
+.PHONY : 07.dynamic_memory.s
 
 # target to generate assembly for a file
-09.swap_values.c.s:
-	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/09.swap_values.c.s
-.PHONY : 09.swap_values.c.s
+07.dynamic_memory.c.s:
+	$(MAKE) -f CMakeFiles\Chapter8.dir\build.make CMakeFiles/Chapter8.dir/07.dynamic_memory.c.s
+.PHONY : 07.dynamic_memory.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Chapter8
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 09.swap_values.obj
-	@echo ... 09.swap_values.i
-	@echo ... 09.swap_values.s
+	@echo ... 07.dynamic_memory.obj
+	@echo ... 07.dynamic_memory.i
+	@echo ... 07.dynamic_memory.s
 .PHONY : help
 
 

@@ -40,8 +40,8 @@
 //  }
 //}
 
-//如果想要修改一个变量，要将它的指针传入进去，否则传入的都是拷贝
-//修改指针就要传入指针的指针，修改int就传入int*
+//如果想要修改一个变量，要将它的地址传入进去，否则传入的都是拷贝
+//修改指针就要传入指针的指针(指针的地址)，修改int就传入int *，修改int *就传入int **
 void InitPointer(int **ptr, int length, int default_value) {
   *ptr = malloc(sizeof(int) * length);
   for (int i = 0; i < length; ++i) {

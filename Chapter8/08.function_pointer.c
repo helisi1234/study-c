@@ -13,7 +13,7 @@
 // 接收int和double，返回一个int*
 
 //例2. int (*f2)(int, double);
-// f2是一个函数指针，接收int和double，返回int
+// f2是一个[int (int,double)]类型的函数指针，接收int和double，返回int
 
 //例3. int *(*f3)(int, double);
 // f3是一个函数指针，接收int和double，返回int*

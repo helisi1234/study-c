@@ -16,11 +16,14 @@ int SumIntArray(int array[], int length) {
 //  info registers rbp
 // => rbp  0x61fe20	0x61fe20
 //  不是同一个地址
+//  传参的时候传的是参数拷贝，所以对参数拷贝的修改不能影响参数
   return sum;
 }
 
+//  传入sum的地址
 void SumIntArray2(int array[], int length, int *sum) {
   for (int i = 0; i < length; ++i) {
+//    对sum解引用
     *sum += array[i];
   }
 }
@@ -49,5 +52,10 @@ int main() {
   SumIntArray2(array, 5, &sum2);
   printf("%d\n", sum2);
 
+  int a = 0;
+  int *p = &a;  //指针必须初始化，否则会数据异常
+  SumIntArray2(array, 5, p);
+  printf("%d\n", *p);
+  printf("%d\n", a);
 }
 

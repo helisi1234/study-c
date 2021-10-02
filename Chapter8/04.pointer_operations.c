@@ -14,11 +14,11 @@ int main() {
     int a = 2;
     int *p = &a;
     int **pp = &p;
-    printf("%d\n", p + 1);
-    printf("%d\n", p);
+    printf("%x\n", p + 1);
+    printf("%x\n", p);
     printf("%d\n", sizeof(int));
-    printf("%d\n", pp + 1);
-    printf("%d\n", pp);
+    printf("%x\n", pp + 1);
+    printf("%x\n", pp);
     printf("%d\n", sizeof(int *));
   }
   printf("=====double=====\n");

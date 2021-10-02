@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/project/C/study-c/Chapter10/10.mbs_wcs.c
+stdio.h
+-
+stdlib.h
+-
+locale.h
+-
+string.h
+-
+wchar.h
+-
+
